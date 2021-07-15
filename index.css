@@ -1,0 +1,85 @@
+ body {
+     background-image: url('https://wallpaperaccess.com/full/804826.jpg');
+     background-size: cover;
+     font-family: 'Teko', sans-serif;
+ }
+
+ .left {
+     /* border: 2px solid red; */
+     display: inline-block;
+     position: absolute;
+     left: 20px;
+     top: 15px;
+     font-size: 25px;
+ }
+ .mid {
+     /* border: 2px solid rgb(145, 174, 199); */
+     display: block;
+     width: 40%;
+     margin: 30px 125px;
+ }
+ .right {
+     /* border: 2px solid rgb(154, 165, 51); */
+     display: inline-block;
+     position: absolute;
+     right: 20px;
+     top: 25px;
+ }
+
+ .left img {
+     width: 50px;
+     display: block;
+     margin: auto;
+ }
+
+ .navbar li {
+     display: inline-block;
+ }
+
+ .navbar li a {
+    color: #03045e;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+ }
+
+ li a:hover {
+     color: #52b69a;
+     text-decoration: underline ;
+ }
+
+ .btn {
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #8e9aaf;
+    padding: 8px 15px;
+ }
+
+ .btn:hover {
+     color: white;
+     cursor: pointer;
+ }
+
+ .container {
+    /* border: 2px solid white; */
+    width: 33%;
+    padding: 15px;
+    margin: 101px 20px;
+    border-radius: 5px;
+    text-align: center;
+ }
+
+.form-group {
+    margin: 10px;
+}
+
+.form-group input {
+    border-radius: 3px;
+}
+
+.submit {
+    border-radius: 5px;
+    padding: 5px 20px;
+    background: blanchedalmond;
+    color: black;
+}
